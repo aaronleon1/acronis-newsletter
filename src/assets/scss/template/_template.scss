@@ -1,59 +1,124 @@
-// These are the styles to make some of the templates look extra nice.
-// Feel free to remove these styles for production!
-
-// Body Styles 
-body,
-html, 
-.body {
-  background: #f3f3f3 !important;
+.header{
+  .columns{
+    padding: 32px 0;
+  }
+}
+.row,
+.columns{
+  padding: 16px 32px 16px 32px !important;
+}
+.main-header{
+  .columns{
+    
+    p{
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 40px;
+      color: #00204e;
+    }
+  }
 }
 
-.container.header {
-  background: #f3f3f3;
+.body-text{
+  .columns{
+    
+    p{
+      font-size: 16px;
+      line-height: 24px;    
+    }
+  }
 }
 
-.body-drip {
-  border-top: 8px solid #663399;
+.news-header{
+  
+  .columns{
+    
+    p{
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 32px;
+    }
+  }
 }
 
-// Full Width Headers
-.header {
-  background: #8a8a8a;
+.news{
+  .columns{
+    .news-subject{
+      padding-top: 8px !important;
+      font-size: 16px;
+      line-height: 24px;
+      color: #002a61;
+      font-weight: bold;
+    }
+  }
 }
 
-.header .columns {
-  padding-bottom: 0;
+.special-offer{
+  background: white;
+  background-color: white;
+  .columns{
+    background: $body-background;
+  background-color: $body-background;
+    .offer-header{
+      font-size: 24px;
+      line-height: 28px;
+      font-weight: bold;
+    }
+    p{
+      font-size: 16px;
+      line-height: 24px;  
+    }
+  }
+  
 }
 
-.header p {
-  color: #fff;
-  padding-top: 15px;
+.charity{
+  .columns{
+    padding-bottom: 32px !important;
+  }
+}
+.charity-text{
+  .columns{
+    padding-top:0 !important;
+    padding-bottom: 8px !important;
+    .charity-subject{
+      font-size: 16px;
+      line-height: 24px;
+      color: #002a61;
+      font-weight: bold;
+    }
+  }
 }
 
-.header .wrapper-inner {
-  padding: 20px;
+.ratings{
+  .columns{
+    img{
+      display: inline-block !important;
+      padding-left: 16px !important;
+      height: 40px !important;
+      width: 40px !important;
+    }
+      
+    }
 }
 
-.header .container {
-  background: transparent;
-}
-
-// Social Media
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
-}
-
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
-}
-
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
-}
-
-.wrapper.secondary {
-  background: #f3f3f3;
+.footer{
+  
+  .footer-info-1{
+    padding-left: 0 !important;
+  }
+  .footer-info-2{
+    padding-left: 32px !important;
+  }
+  .columns{
+    padding-top:16px !important;
+    img{
+      display: inline-block !important;
+      
+    }
+    a{
+      display: block !important;
+      padding-bottom: 5px;
+    }
+  }
 }
